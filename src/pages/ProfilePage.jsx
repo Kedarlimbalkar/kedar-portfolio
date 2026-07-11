@@ -479,9 +479,20 @@ export default function ProfilePage({
             Let's talk
           </h2>
           {CONTACT_LINE && <p style={{ color: T.muted, marginBottom: 28 }}>{CONTACT_LINE}</p>}
-          <ActionBtn href="mailto:kedar@example.com" primary T={T} className="magnetic-btn">
-            Get in touch
-          </ActionBtn>
+          <div style={{ display: "flex", gap: 14, flexWrap: "wrap", justifyContent: "center" }}>
+            <ActionBtn href="mailto:kedar@example.com" primary T={T} className="magnetic-btn">
+              Get in touch
+            </ActionBtn>
+            <ActionBtn href="tel:+919284374129" T={T} className="magnetic-btn">
+              +91 92843 74129
+            </ActionBtn>
+            <ActionBtn href="https://www.linkedin.com/in/kedar-limbalkar/" T={T} className="magnetic-btn">
+              LinkedIn
+            </ActionBtn>
+            <ActionBtn href="https://github.com/Kedarlimbalkar" T={T} className="magnetic-btn">
+              GitHub
+            </ActionBtn>
+          </div>
         </Reveal>
       </section>
 
