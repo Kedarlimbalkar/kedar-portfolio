@@ -14,7 +14,7 @@ export const HERO_TAGLINE  = ["Kedar", "Limbalkar"];
 export const HERO_SUB      = "Building production-grade AI systems that bridge ML architecture with data-driven business strategy.";
 export const HERO_STATS    = [["10K+","Records processed"],["82%","Model accuracy"],["30%","Reliability boost"]];
 
-export const CV_FILE = "/Kedar_Limbalkar_DS.pdf";
+export const CV_FILE = "Public/Kedar_Limbalkar_DS.pdf";
 
 export const ABOUT_PARAGRAPHS = [
   "Computer Engineering graduate from GCoEJ, currently pursuing an MS in Computer Science & ML at Woolf University. I build production-grade AI systems and bridge ML architecture with actionable business strategy.",
